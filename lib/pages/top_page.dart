@@ -13,7 +13,7 @@ class _TopPageState extends State<TopPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text('ChatApp'),),
-      body: const Center(child: Text('Main Screen')),
+      body: const Text('Main Screen'),
     );
   }
 }
