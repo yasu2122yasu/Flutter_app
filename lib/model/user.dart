@@ -10,7 +10,7 @@ class User {
     required this.name,
     required this.uid,
     //this.imagePath, だとエラーが出た。
-    required this.imagePath,
+    this.imagePath ="",
     this.lastMessage = ''
   });
 }
